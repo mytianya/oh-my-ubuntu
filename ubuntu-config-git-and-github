@@ -1,0 +1,12 @@
+# Ubuntu Config git
+
+```shell
+sudo apt install git
+git config --global user.name "codehome-ubuntu"
+git config --global user.email "dsyslove@163.com"
+git config --global color.ui auto
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub
+github add ssh key
+ssh -T git@github.com
+```
